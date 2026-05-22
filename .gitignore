@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# BankID certificates — never commit private keys or certs
+certs/
+
+# Uploaded, signed documents and proofs (user data — never commit)
+storage/
+
+# Logs
+*.log
